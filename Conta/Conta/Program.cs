@@ -1,20 +1,19 @@
 ﻿namespace Conta
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Conta conta = new Conta();  
-            
+            Conta conta = new Conta();
+
             conta.ajusta_limite(700);
+            conta.deposito(500);
 
-            conta.deposito(900);
+            conta.consulta_saldo();
 
-            conta.consulta_saldo());
+            conta.sacar(200);
 
-            conta.sacar(300);
-
-            conta.consulta_saldo());
+            conta.consulta_saldo();
         }
     }
 }
