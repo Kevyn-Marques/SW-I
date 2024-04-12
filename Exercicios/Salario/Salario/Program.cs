@@ -14,7 +14,7 @@
             sal.DE = 5;
             sal.REF = 5;
             sal.Val = 4;
-            Console.WriteLine(p.FolhaDePagamento());
+            Console.WriteLine(sal.FolhaDePagamento());
         }
     }
 }
